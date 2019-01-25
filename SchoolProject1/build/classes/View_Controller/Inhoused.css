@@ -1,0 +1,220 @@
+﻿  					
+
+
+
+
+
+/*BACKGROUNDS*/
+
+.main-background {
+    -fx-background-color: linear-gradient(to bottom, #5aacfc, #FFFAFA);
+}
+
+/*BORDERS*/
+
+
+.form-large-box {
+    -fx-pref-height: 25px;
+    -fx-pref-width: 150px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8px;
+    -fx-effect: innershadow(three-pass-box, black, 4.75, 0, 0, 0);
+    -fx-font-color: black;
+    -fx-font-family: verdana;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.form-mid-box {
+    -fx-pref-height: 25px;
+    -fx-pref-width: 125px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8px;
+    -fx-effect: innershadow(three-pass-box, black, 4.75, 0, 0, 0);
+    -fx-font-color: black;
+    -fx-font-family: verdana;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.form-small-box {
+    -fx-pref-height: 25px;
+    -fx-pref-width: 75px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 8px;
+    -fx-effect: innershadow(three-pass-box, black, 4.75, 0, 0, 0);
+    -fx-font-color: black;
+    -fx-font-family: verdana;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.main-box {
+    -fx-background-color: #FFFAFA;
+    -fx-background-radius: 10px;
+   /* -fx-border-color: black;
+    -fx-border-radius: 10px;*/
+    -fx-effect: innershadow(three-pass-box, black, 15, 0, 0, 0)
+    
+}
+
+.product-form-box {
+    -fx-pref-height: 30px;
+    -fx-pref-width: 175px;
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10px;
+    /*-fx-border-color: black;
+    -fx-border-radius: 3px;*/
+    -fx-effect: innershadow(three-pass-box, black, 4.75, 0, 0, 0);
+    -fx-font-color: black;
+    -fx-font-family: verdana;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
+
+.search-box {
+    -fx-background-radius: 10px;    
+    -fx-effect: innershadow(three-pass-box, black, 4.75, 0, 0, 0);
+    -fx-font-family: verdana;
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 32px;
+    -fx-text-alignment: left;
+}
+
+.table-box {
+    -fx-background-radius: 5px;
+    -fx-border-radius: 10px;
+    /*-fx-effect: innershadow(three-pass-box, black, 7,0,0,0);*/
+    -fx-effect: dropshadow(three-pass-box, black, 10, 0 , 0, 0);
+    -fx-font-family: verdana;
+}
+
+/*BUTTONS*/
+
+.add-button {
+    
+    -fx-background-color:   #32CD32 ;
+}
+
+.canel-button {
+    -fx-background-color:  #FF4500;
+    -fx-effect: dropshadow(gaussian, black, 10, 0, 0, 3);
+    -fx-background-radius: 10px;
+    -fx-font-family: verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;    
+    -fx-text-fill: white;
+}
+
+.delete-button {
+    -fx-background-color:  #FF4500 ;
+}
+
+.save-button {
+    -fx-background-color:  #32CD32;
+    -fx-effect: dropshadow(gaussian, black, 10, 0, 0, 3);
+    -fx-background-radius: 10px;
+    -fx-font-family: verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.reset-button {
+    -fx-border-color: black;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;    
+    -fx-font-color: black;
+    -fx-font-family: verdana;
+    -fx-font-size: 11px;
+}
+.search-button {
+    -fx-background-color :  #1E90FF ;
+}
+
+.standard {
+    -fx-pref-width: 90px;
+    -fx-pref-height: 30px;
+    -fx-background-radius: 7px;
+    -fx-effect: dropshadow(gaussian, black, 10, 0, 0, 2);
+   /* -fx-border-color: black;
+    -fx-border-radius: 5px;  */  
+    -fx-font-family: verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.button-font {
+    -fx-text-fill: white;
+    -fx-font-family: verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+
+.radio-button .radio {
+     -fx-padding: 5px;
+     -fx-selected-color: blue;
+    }
+
+.radio-button .dot {   
+    -fx-padding: 5px;
+    -fx-selected-color: blue;
+    }
+
+
+ 
+    /*FONTS*/
+ 					
+ 
+ .form-font {
+	-fx-font-family: verdana;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	}
+
+
+.radio-text {
+	-fx-font-family: verdana;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.product-font {
+    -fx-font-family: verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.title-font {
+	-fx-text-align: center;
+        -fx-effect: dropshadow(three-pass-box, black, 10, 0, -2, 2);
+	-fx-font-family: verdana;
+	-fx-font-size: 22px;
+	-fx-font-weight: bold;
+	}
+
+        .warningPrompt-font {
+        -fx-text-align: center;
+        -fx-font-color: #ff0000;
+        -fx-font-family: verdana;
+        -fx-font-size: 10px;
+        -fx-font-style: italic;
+        -fx-font-weight: bold;
+        }
+        
+        .table-column {
+            -fx-alignment:center;
+            -fx-font-family: verdana;
+            -fx-font-weight: bold;
+            
+        }
+        
+        
+	
